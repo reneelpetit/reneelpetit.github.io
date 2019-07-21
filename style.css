@@ -4,8 +4,7 @@
 }
 
 p {
-  font-family: 'Muli', sans-serif;
-  font-weight: bold;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 .white {
@@ -14,10 +13,10 @@ p {
 
 #content {
   background-color: teal;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
-.about {
+.heading {
   color: white;
-  padding: 1em;
+  padding: 1em 0;
 }

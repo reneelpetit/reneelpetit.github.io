@@ -3,125 +3,71 @@
 <html lang="en-us">
 
 <head>
-
-  <meta charset="UTF-8">
-  <title>Renee Petit</title>
-  <link rel="stylesheet" type="text/css" href="./style.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <title>Renée Petit</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
 </head>
-
-<body>
+  
+  <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-    
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">About</a>
-                <a class="dropdown-item" href="#">Portfolio</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Contact</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+      <div class="container" id="nav">
+        <div class="row">
+          <div class="col-sm-4">
+          </div>
+          <div class ="col-sm-8">
+            <a class="navbar-brand" href="./index.htm">Renée L Petit</a>
+              <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="./contact.htm">Contact <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./index.htm">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./portfolio.htm">Portfolio</a>
+                  </li>
+                </ul>
+            </div>
+            </div>
+          </div>
         </div>
       </nav>
-  
-
-  <div class="container">
-      <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-            <!-- The content in this div gets wrapped in a card -->
-              <div class="card">
-                <div class="card-body">
-                  Awesome Stories
-                </div>
+    <div class="container" id="content">
+        <div class="row">
+            <div class="col-sm-1">
+            </div>
+            <div class="col-sm-4">
+              <div class="heading">
+              <h3>Contact</h3>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-lg-3">
-              <img class="img img-thumbnail" src="http://placehold.it/200x200">
-            </div>
-            <div class="col-lg-9">
-              <h2>The Greatest Website Ever Made</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae cumque corporis quis sed, quod pariatur! Officia aut tempore repellendus, culpa inventore magnam accusamus nemo fugiat debitis voluptates ratione omnis, nobis.</p>
-            </div>
+        <div class="row">
+          <div class="col-sm-1">
           </div>
-          <br>
-          <div class="row">
-            <div class="col-lg-3">
-              <img class="img img-thumbnail" src="http://placehold.it/200x200">
-            </div>
-            <div class="col-lg-9">
-              <h2>The Greatest Website Ever Made</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, nemo vitae! Nostrum quisquam quod autem amet distinctio tenetur dolore sequi veniam, vero nobis impedit nemo dolor ex dolorum quo minus.</p>
-            </div>
-          </div>
-          <br>
-          <div class="row">
-            <div class="col-lg-12">
-              <!-- The content in this div gets wrapped in a card -->
-              <div class="card">
-                <div class="card-body">
-                  <div class="text-center">
-                    <img class="" src="http://placehold.it/50x50" alt="">
-                    <img class="" src="http://placehold.it/50x50" alt="">
-                    <img class="" src="http://placehold.it/50x50" alt="">
-                  </div>
-                </div>
+          <div class="col-sm-6">
+            <form>
+              <div class="form-group">
+                <label for="email">Your email address</label>
+                <input type="email" class="form-control" id="emailinput" placeholder="name@example.com">
               </div>
-            </div>
+              <div class="form-group">
+                <label for="username">Your Name</label>
+              <textarea class="form-control" id="textinput" rows="1"></textarea>
+              <div class="form-group">
+                <label for="userinput">Content</label>
+                <textarea class="form-control" id="userinput" rows="10"></textarea>
+              </div>
+            </form>
           </div>
         </div>
-      </body>
-    <section id="main-bio">
-
-      <h2>Renee Petit</h2>
-      <img src="http://placehold.it/200x200" alt="Your Image" id="bio-image">
-      <p>I am an American with a French name, Renee Petit.  Renee means reborn, and Petit means small.  My great-great-great-grandfather, Jean Claude Petit, came over to America from France and now the rest is history!
-      </p>
-      <p>I currently work in Higher Education, but I am working on becoming a Fullstack Developer.  This website will serve as my portfolio as I learn new skills.
-      </p>
-      <p><strong>Come with me and follow my journey!<strong></strong></p>
-
-    </section>
-
-    <section id="contact-info">
-
-      <h2>Contact Info</h2>
-
-      <ul>
-        <li><strong>Email:</strong> <a href="#">renee.petit@gmail.com</a></li>
-        <li><strong>Github:</strong> <a href="#">reneelpetit</a></li>
-        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-      </ul>
-
-    </section>
-
-  </div>
-
+      </div>
 </body>
 
 </html>
