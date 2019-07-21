@@ -3,3 +3,21 @@
   border: 0;
 }
 
+p {
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+}
+
+.white {
+  color: white;
+}
+
+#content {
+  background-color: teal;
+  font-family: 'Muli', sans-serif;
+}
+
+.about {
+  color: white;
+  padding: 1em;
+}
