@@ -7,12 +7,13 @@ p {
   font-family: 'Noto Sans JP', sans-serif;
 }
 
-.white {
-  color: white;
-}
 
 #content {
   background-color: teal;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+#navbar {
   font-family: 'Noto Sans JP', sans-serif;
 }
 
@@ -28,4 +29,8 @@ p {
 
 #aboutparagraph {
   margin-bottom: 1em;
+}
+
+#extra-padding {
+  padding-bottom: 2em;
 }

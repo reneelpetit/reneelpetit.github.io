@@ -5,12 +5,36 @@
     <head>
         <meta charset="UTF-8">
         <title>Renée Petit</title>
+        <style>
+            @media screen and (min-width: 769px){
+              .container {
+                height: auto;
+                width: auto;
+             }
+           }
+           
+           @media screen and (min-width: 641px)and (max-width: 768px)  {
+              .container {
+                height: auto;
+                width: auto;
+             }
+           }
+           
+            @media screen and (min-width: 1px)and (max-width: 640px)  {
+              .container {
+              height: auto;
+              width: auto;
+             }
+           }
+           </style>
         <link rel="stylesheet" type="text/css" href="./style.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+        
     </head>
       
       <body>
+        <div id="navbar">
           <div class="row">
               <div class="col-lg-12">
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -33,10 +57,12 @@
                       </li>
                     </ul>
                 </div>
-                </div>
               </div>
             </div>
-          </nav>
+            </nav>
+          </div> 
+        </div>
+      </div>
           <div class="container" id="content">
               <div class="row">
                 <div class="col-lg-1">
@@ -63,7 +89,7 @@
               </div>
               <br>
               <br>
-              <div class="my-5 row">
+              <div class="row" id="extra-padding">
                   <div class="col-md-1">
                   </div>
                   <div class="col-md-4">
