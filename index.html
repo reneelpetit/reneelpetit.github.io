@@ -217,77 +217,50 @@
             <!-- PAGE CONTENT -->
             <div class="cv-page-content">
                 <h2 class="border">PORTFOLIO</h2>
-                <!-- PORTFOLIO FILTERS -->
-                <ul id="cv-portfolio-filter" class="cvfilters">
-                    <li data-filter="all" class="gridactive">All</li>
-                    <li data-filter="cat1">JavaScript Projects</li>
-                    <li data-filter="cat2">Python & C++ Projects</li>
-                </ul>
-                <div class="clear"></div>
-                <!-- PORTFOLIO GRID -->
-                <ul id="cv-portfolio" class="cvgrid">
-                    <li data-filter-class='["all","cat2"]'>
-                        <figure>
-                            <a id="gallery1" href="#" class="cvgrid-img">
-                                <img src="images/photos/480.png" alt="" />
-                            </a>
-                            <figcaption>
-                                <div class="cvgrid-title">Python & C++ Projects</div>
-                            </figcaption>
-                        </figure>
-                    </li>
-                    <li data-filter-class='["all","cat1","cat2"]'>
-                        <figure>
-                            <a id="gallery2" href="" class="openlightbox cvgrid-video">
-                                <img src="images/photos/480.png" alt="" />
-                            </a>
-                            <figcaption>
-                                <div class="cvgrid-title">Train Scheduler</div>
-                            </figcaption>
-                        </figure>
-                    </li>
-                    <li data-filter-class='["all","cat1"]'>
-                        <figure>
-                            <a id="gallery3" href="#" class="openlightbox cvgrid-img">
-                                <img src="images/photos/480.png" alt="" />
-                            </a>
-                            <figcaption>
-                                <div class="cvgrid-title">Autoplay On</div>
-                            </figcaption>
-                        </figure>
-                    </li>
-                    <li data-filter-class='["all","cat2"]'>
-                        <figure>
-                            <a href="single-slider.html" class="cvgrid-link" target="_blank">
-                                <img src="images/photos/480.png" alt="" />
-                            </a>
-                            <figcaption>
-                                <div class="cvgrid-title">Page with Slider</div>
-                            </figcaption>
-                        </figure>
-                    </li>
-                    <li data-filter-class='["all","cat2"]'>
-                        <figure>
-                            <a id="gallery4" href="#" class="cvgrid-img">
-                                <img src="images/photos/480.png" alt="" />
-                            </a>
-                            <figcaption>
-                                <div class="cvgrid-title">Another Gallery</div>
-                            </figcaption>
-                        </figure>
-                    </li>
-                    <li data-filter-class='["all","cat2"]'>
-                        <figure>
-                            <a href="single-video.html" class="cvgrid-link" target="_blank">
-                                <img src="images/photos/480.png" alt="" />
-                            </a>
-                            <figcaption>
-                                <div class="cvgrid-title">Page with Video</div>
-                            </figcaption>
-                        </figure>
-                    </li>
-                </ul>
-                <div class="clear"></div>
+                <div class="cv-main-icon-container">
+                    <!-- ICON BLOCK -->
+                    <div class="cv-icon-block">
+                        <div class="cv-icon-container">
+                            <a href="https://reneelpetit.github.io/TrainScheduler/" class="fas fa-subway">Train Scheduler</a>
+                        </div>
+                        <div class="cv-icon-text">
+                            <h4>Train Scheduler</h4>
+                            <p>Website that when given as input the 
+                                time of the first train and how often it runs 
+                                provides as output how many minutes and at what time
+                                the next train will arrive. Uses firebase to store the train data 
+                                and moment.js to calculate time. Link to project on GitHub
+                                 <a href="https://github.com/reneelpetit/TrainScheduler">here</a>. 
+                                 Link to deployed project <a href="https://reneelpetit.github.io/TrainScheduler/">here</a>.</p>
+                        </div>
+                    </div>
+                    <!-- ICON BLOCK -->
+                    <div class="cv-icon-block">
+                        <div class="cv-icon-container">
+                            <a href="https://reneelpetit.github.io/GiphyGame/" class="fas fa-camera-retro">Giphy Game</a>
+                        </div>
+                        <div class="cv-icon-text">
+                            <h4>Giphy Game</h4>
+                            <p>Website with named buttons that users can click on to generate 
+                                10 gifs from GIPHY related to the name on the button to populate on screen.
+                                 User can click on each gif to start or stop the animation. User can 
+                                 also add their own button name and get 10 gifs related to their button. 
+                                 I used API calls to <a href="https://developers.giphy.com/">GIPHY</a> to get the gifs. Link to project on 
+                                 GitHub <a href="https://github.com/reneelpetit/GiphyGame">here</a>. 
+                                 Link to deployed project <a href="https://reneelpetit.github.io/GiphyGame/">here</a>.</p>
+                        </div>
+                    </div>
+                    <!-- ICON BLOCK -->
+                    <div class="cv-icon-block">
+                        <div class="cv-icon-container">
+                            <a href="https://github.com/reneelpetit" class="fas fa-code">More Coming Soon</a>
+                        </div>
+                        <div class="cv-icon-text">
+                            <h4>More Coming Soon...</h4>
+                            <p>Cleaning up & finishing some code on a few other projects and will post here soon. To see all my code in progress you can go to my <a href="https://github.com/reneelpetit">GitHub</a>.</p>
+                        </div>
+                    </div>
+                
             </div>
         </section>
         <!-- PAGE 5 -->
@@ -299,28 +272,22 @@
             <!-- PAGE CONTENT -->
             <div class="cv-page-content">
                 <h2 class="border">CONTACT</h2>
-                <p>Quibusdam noster aut laborum despicationes. Malis appellat o enim tamen. O amet quibusdam. Magna occaecat ex coniunctione, quis in mentitum, multos excepteur offendit, id a dolore illum.</p>
+                <p>I am located in the Portland, Oregon greater metro area. 
+                    Please feel free to get in touch with me. I'd love to share more 
+                    about my projects and skills.</p>
                 <!-- TABLE -->
                 <ul class="cv-table">
                     <li>
                         <div class="cv-table-left"><i class="cv-icon fa fa-phone-square"></i>Phone</div>
-                        <div class="cv-table-right">234-435-4345</div>
+                        <div class="cv-table-right">805-844-2509</div>
                     </li>
                     <li>
                         <div class="cv-table-left"><i class="cv-icon fa fa-envelope"></i>E-mail</div>
-                        <div class="cv-table-right"><a href="#">info@mysite.com</a>
+                        <div class="cv-table-right"><a href="#">renee.petit@gmail.com</a>
                         </div>
                     </li>
-                    <li>
-                        <div class="cv-table-left"><i class="cv-icon fa fa-map"></i>Address</div>
-                        <div class="cv-table-right">144 King St, Melbourne VIC</div>
-                    </li>
-                    <li>
-                        <div class="cv-table-left"><i class="cv-icon fa fa-fax"></i>Fax</div>
-                        <div class="cv-table-right">234-435-4346</div>
-                    </li>
+                    
                 </ul>
-                <p>Amet litteris ingeniis in eiusmod et legam aliquip, anim consequat ubi incididunt ubi eram cernantur adipisicing, ab fore illustriora, amet voluptate.</p>
                 <hr/>
                 <h2 class="border">GET IN TOUCH</h2>
                 <p>E fugiat mentitum illustriora, te noster tractavissent. Eu aute occaecat domesticarum id si quem non enim. Ab velit nisi si commodo ne dolor domesticarum quamquam malis officia, et legam laboris ne qui cupidatat qui singulis, fabulas.</p>
@@ -347,156 +314,7 @@
             <div id="cv-back-to-top" class="tooltip-gototop" title="Go to top"></div>
         </footer>
     </div>
-    <!-- SIDEBAR -->
-    <aside id="cv-sidebar">
-        <div id="cv-sidebar-inner">
-            <!-- MENU WIDGET -->
-            <div class="cv-sidebar-title">
-                <h5>SUBMENU</h5>
-            </div>
-            <div class="cv-panel-widget">
-                <nav class="cv-submenu">
-                    <ul>
-                        <li><a href="blog.html">Blog</a>
-                        </li>
-                        <li><a href="single.html">Single Post/Page</a>
-                        </li>
-                        <li><a href="single-slider.html">Page with Slider</a>
-                        </li>
-                        <li><a href="single-video.html">Page with Video</a>
-                        </li>
-                        <li><a href="features.html">Other Features</a>
-                        </li>
-                        <li><a href="#">Dropdown</a>
-                            <ul>
-                                <li><a href="#">Item 1</a>
-                                </li>
-                                <li><a href="#">Item 2</a>
-                                </li>
-                                <li><a href="#">Item 3</a>
-                                </li>
-                                <li><a href="#">Item 4</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li><a href="http://www.themeforest.net?ref=egemenerd" target="_blank">External Link</a>
-                        </li>
-                        <li><a href="#">Another Dropdown</a>
-                            <ul>
-                                <li><a href="#">Item 1</a>
-                                </li>
-                                <li><a href="#">Item 2</a>
-                                </li>
-                                <li><a href="#">Item 3</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <!-- SEARCH BOX -->
-            <div class="cv-sidebar-title">
-                <h5>SEARCH</h5>
-            </div>
-            <div class="cv-panel-widget">
-                <form id="searchform" class="searchbox">
-                    <input type="text" id="search" class="searchtext" placeholder="Keyword..." />
-                    <input type="submit" class="cv-button" name="submit" value="" />
-                </form>
-            </div>
-            <!-- LATEST POSTS WIDGET -->
-            <div class="cv-sidebar-title">
-                <h5>LATEST POSTS</h5>
-            </div>
-            <div class="cv-panel-widget">
-                <ul class="cv-sidebar-posts">
-                    <li>
-                        <div class="cv-sidebar-posts-img">
-                            <a href="single.html">
-                                <img src="images/photos/70.png" alt="" />
-                            </a>
-                        </div>
-                        <a href="single.html" class="cv-sidebar-post-title">Malis imita offend irure nostrud non deserunt</a>
-                        <p class="cv-sidebar-post-date">21 Oct 2015</p>
-                    </li>
-                    <li>
-                        <div class="cv-sidebar-posts-img">
-                            <a href="single.html">
-                                <img src="images/photos/70.png" alt="" />
-                            </a>
-                        </div>
-                        <a href="single.html" class="cv-sidebar-post-title">Nostrud aute mandaremus, fabulas aute occaecat</a>
-                        <p class="cv-sidebar-post-date">19 Oct 2015</p>
-                    </li>
-                    <li>
-                        <div class="cv-sidebar-posts-img">
-                            <a href="single.html">
-                                <img src="images/photos/70.png" alt="" />
-                            </a>
-                        </div>
-                        <a href="single.html" class="cv-sidebar-post-title">Nulla aut occaecat. Possumus lorem nostrud doctrina</a>
-                        <p class="cv-sidebar-post-date">17 Oct 2015</p>
-                    </li>
-                    <li>
-                        <div class="cv-sidebar-posts-img">
-                            <a href="single.html">
-                                <img src="images/photos/70.png" alt="" />
-                            </a>
-                        </div>
-                        <a href="single.html" class="cv-sidebar-post-title">Litteris ipsum mandaremus, et labore esse quae</a>
-                        <p class="cv-sidebar-post-date">14 Oct 2015</p>
-                    </li>
-                </ul>
-            </div>
-            <!-- CATEGORIES WIDGET -->
-            <div class="cv-sidebar-title">
-                <h5>CATEGORIES</h5>
-            </div>
-            <div class="cv-panel-widget">
-                <ul class="cv-sidebar-list">
-                    <li>
-                        <a href="single.html">O irure nostrud non</a>
-                    </li>
-                    <li>
-                        <a href="single.html">Eu multos eiusmod deserunt</a>
-                    </li>
-                    <li>
-                        <a href="single.html">Ab cupidatat philosophari</a>
-                    </li>
-                    <li>
-                        <a href="single.html">Commodo dolore te nostrud</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- FLICKR FEED -->
-            <div class="cv-sidebar-title">
-                <h5>FLICKR</h5>
-            </div>
-            <div class="cv-panel-widget">
-                <ul id="cv-flickr-box" class="cv-flickr-box"></ul>
-                <div class="clear"></div>
-            </div>
-            <!-- TAGS WIDGET -->
-            <div class="cv-sidebar-title">
-                <h5>TAGS</h5>
-            </div>
-            <div class="cv-panel-widget">
-                <div class="cv-tags-container">
-                    <a class="cv-tags" href="#">Voluptate</a>
-                    <a class="cv-tags" href="#">Deserani</a>
-                    <a class="cv-tags" href="#">Quo eram</a>
-                    <a class="cv-tags" href="#">Mentitum amet sit</a>
-                    <a class="cv-tags" href="#">Cillum</a>
-                    <a class="cv-tags" href="#">Incurreret</a>
-                    <a class="cv-tags" href="#">Mauris</a>
-                    <a class="cv-tags" href="#">Admodum</a>
-                    <a class="cv-tags" href="#">Singulis</a>
-                    <a class="cv-tags" href="#">Quit</a>
-                    <a class="cv-tags" href="#">Eram amet aliqua</a>
-                </div>
-            </div>
-        </div>
-    </aside>
+    
     <!-- MAIN JS FILES -->
     <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="js/jquery-ui-custom.min.js"></script>
