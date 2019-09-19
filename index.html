@@ -25,7 +25,7 @@
        <script type="text/javascript" src="js/html5.js"></script>
     <![endif]-->
     <!-- GOOGLE MAP -->
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=YOUR_API_KEY"></script>
+    
     <script src="https://kit.fontawesome.com/678e2711b4.js"></script>
     <!-- NOSCRIPT -->
     <noscript>
@@ -81,6 +81,7 @@
                 <!-- GOOGLE MAP -->
                 <div class="google-map-container">
                     <div id="google-map"></div>
+                    <img src="./images/photos/portland skyline.JPG" alt="photo of portland skyline">
                 </div>
             </div>
         </div>
@@ -109,7 +110,7 @@
                 <h2 class="border">ABOUT ME</h2>
                 <p>I'm a multilingual Web Developer 
                     with a professional certificate from University of Oregon in full stack web technologies and
-                    computer science coursework from Oregon State University. I have a keen attention detail while
+                    computer science coursework from Oregon State University. I have a keen attention to detail while
                     not losing sight of the big picture. I am passionate about creating exciting, dynamic, interactive 
                     and easy-to-use web applications.</p>
                 <!-- TABLE -->
@@ -129,7 +130,7 @@
                     </li>
                 </ul>
                 <p>Want to know more about me?</p>
-                <a href="#contact" class="cv-button primary go-to-floor" data-id="5" data-slug="contact">Hire Me</a>
+                <a href="#contact" class="cv-button primary go-to-floor" data-id="5" data-slug="contact">Contact Me</a>
                 <a href="./images/Web Developer Resume2.pdf" class="cv-button">Download Resume</a>
                 <hr/>
                 <h2 class="border">WHAT CAN I DO</h2>
@@ -180,6 +181,7 @@
             </div>
             <!-- PAGE CONTENT -->
             <div class="cv-page-content">
+                    <p>You may also want to checkout my <a href="www.linkedin.com/in/renée-petit-8947a95b">Linked In </a>profile.</p>
                 <h2 class="border">CURRENT EXPERIENCE</h2>
                 <div class="cv-resume-box">
                     <div class="cv-resume-title">
@@ -225,8 +227,8 @@
                         </div>
                         <div class="cv-icon-text">
                             <h4>Train Scheduler</h4>
-                            <p>Website that when given as input the 
-                                time of the first train and how often it runs 
+                            <p>Website that takes as input the 
+                                time of the first train and how often it runs and 
                                 provides as output how many minutes and at what time
                                 the next train will arrive. Uses firebase to store the train data 
                                 and moment.js to calculate time. Link to project on GitHub
@@ -241,11 +243,11 @@
                         </div>
                         <div class="cv-icon-text">
                             <h4>Giphy Game</h4>
-                            <p>Website with named buttons that users can click on to generate 
-                                10 gifs from GIPHY related to the name on the button to populate on screen.
-                                 User can click on each gif to start or stop the animation. User can 
-                                 also add their own button name and get 10 gifs related to their button. 
-                                 I used API calls to <a href="https://developers.giphy.com/">GIPHY</a> to get the gifs. Link to project on 
+                            <p>Website with buttons user clicks to generate and populate on screen
+                                10 gifs related in theme to the cliked button.
+                                 Each gif can be clicked to start or stop the animation. User can 
+                                 also add their own button and generate 10 gifs related to their button's theme. 
+                                 I made API calls to <a href="https://developers.giphy.com/">GIPHY</a> to get the gifs. Link to project on 
                                  GitHub <a href="https://github.com/reneelpetit/GiphyGame">here</a>. 
                                  Link to deployed project <a href="https://reneelpetit.github.io/GiphyGame/">here</a>.</p>
                         </div>
@@ -267,12 +269,14 @@
         <section class="floor floor-5">
             <!-- MOBILE GOOGLE MAP -->
             <div class="mobile-map-container">
-                <div id="mobile-map"></div>
+                <div id="mobile-map">
+                    <a href="./images/photos/portland skyline.JPG"></a>
+                </div>
             </div>
             <!-- PAGE CONTENT -->
             <div class="cv-page-content">
                 <h2 class="border">CONTACT</h2>
-                <p>I am located in the Portland, Oregon greater metro area. 
+                <p>I am located in the Portland, Oregon, greater metro area. 
                     Please feel free to get in touch with me. I'd love to share more 
                     about my projects and skills.</p>
                 <!-- TABLE -->
@@ -286,23 +290,13 @@
                         <div class="cv-table-right"><a href="#">renee.petit@gmail.com</a>
                         </div>
                     </li>
-                    
+                    <li>
+                        <div class="cv-table-left"><i class="cv-icon fa fa-map"></i>Address</div>
+                        <div class="cv-table-right">Portland, Oregon</div>
+                    </li>
                 </ul>
                 <hr/>
-                <h2 class="border">GET IN TOUCH</h2>
-                <p>E fugiat mentitum illustriora, te noster tractavissent. Eu aute occaecat domesticarum id si quem non enim. Ab velit nisi si commodo ne dolor domesticarum quamquam malis officia, et legam laboris ne qui cupidatat qui singulis, fabulas.</p>
-                <!-- CONTACT FORM -->
-                <form class="form-box" action="processform.php" method="post">
-                    <label>Full name :</label>
-                    <input type="text" name="senderName" id="senderName" required="required" maxlength="50" />
-                    <label>Phone Number :</label>
-                    <input type="text" name="phoneNumber" id="phoneNumber" required="required" maxlength="50" />
-                    <label>Email address :</label>
-                    <input type="email" name="senderEmail" id="senderEmail" required="required" maxlength="50" />
-                    <label>Message :</label>
-                    <textarea name="message" id="message" required="required"></textarea>
-                    <input type="submit" id="sendMessage" name="sendMessage" class="cv-button primary" value="Send Message" />
-                </form>
+                
             </div>
         </section>
         <!-- FOOTER -->
